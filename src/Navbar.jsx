@@ -27,7 +27,7 @@ const Navbar = () => {
         </NavLink>
 
         <NavLink
-          to="/assignment"
+          to="/assignments"
           className={({ isActive }) =>
             `px-4 py-2 rounded-lg transition duration-300 
             ${isActive 
