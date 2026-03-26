@@ -36,9 +36,7 @@ const Products = () => {
             <img src={e.image} className="  p-30rounded-2xl flex items-center h-70 w-70 justify-center" />
             <h1>{e.name}</h1>
             <p className='font-bold'>Ratings:{e.rating}</p>
-            <button onClick={()=>Changedirection(e)}  className='bg-black text-white p-2 rounded'>
-Ingredients
-</button>       </div>
+             </div>
        ))}
     </div>
   
