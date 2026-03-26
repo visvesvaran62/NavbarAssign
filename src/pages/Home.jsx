@@ -9,7 +9,7 @@ const Home = () => {
 
         
         <h1 className="text-5xl font-bold mb-6 drop-shadow-lg">
-           Welcome to My React App
+           Welcome to My React Assignment
         </h1>
 
        
