@@ -1,8 +1,8 @@
-import React, { useContext } from 'react'
-import { AppContext } from '../context/AppContext'
+import { useContext } from "react";
+import { AppContext } from "../context/AppContext";
 
 const ThemeSwitch = () => {
-  const { theme, toggleTheme } = useContext(AppContext)
+  const { theme, toggleTheme } = useContext(AppContext);
 
   return (
     <div
@@ -19,7 +19,7 @@ const ThemeSwitch = () => {
         Toggle Theme
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default ThemeSwitch
+export default ThemeSwitch;

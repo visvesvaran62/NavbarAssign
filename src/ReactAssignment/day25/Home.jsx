@@ -1,12 +1,7 @@
-import React from 'react'
-import ThemeSwitch from './components/ThemeSwitch'
+import ThemeSwitch from "./components/ThemeSwitch";
 
 const Home = () => {
-  return (
-    <div>
-      <ThemeSwitch/>
-    </div>
-  )
-}
+  return <ThemeSwitch />;
+};
 
-export default Home
+export default Home;
