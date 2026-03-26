@@ -25,12 +25,7 @@ const Products = () => {
                 fetchedData()
             }, [ ])
 
-            const Changedirection=(e)=>{
- Navigate("/ingre",{state:e})
- 
-
-
-            }
+  
 
    
   return (
