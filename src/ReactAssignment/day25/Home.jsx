@@ -1,14 +1,12 @@
 import React from 'react'
 import ThemeSwitch from './components/ThemeSwitch'
-import Home from './Home'
 
-const Assign25 = () => {
+const Home = () => {
   return (
     <div>
-
-      <Home/>
+      <ThemeSwitch/>
     </div>
   )
 }
 
-export default Assign25
+export default Home

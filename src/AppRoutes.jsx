@@ -6,6 +6,7 @@ import Assign21 from './ReactAssignment/Assign-21/Assgn21'
 
 import Assign26 from './ReactAssignment/day-26/Assign26'
 import Receipe from './ReactAssignment/reciepes/Receipe'
+import Assign25 from './ReactAssignment/day25/Assign25'
 
 
 const AppRoutes = () => {
@@ -17,6 +18,7 @@ const AppRoutes = () => {
        <Route path='/assignments/1' element={<Assign21/>}/>
       <Route path="/assignment/22" element={<Receipe/>}/>
        <Route path='/assignments/26' element={<Assign26/>}/>
+       <Route path="/assignments/25" element={<Assign25/>}/>
       
 
     </Routes>
