@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const assignments = [
   { id: 1, title: "Assignment 21", desc: "Form" },
-  {id:2,title:"Assignment22",desc:"product"},
+  {id:22,title:"Assignment22",desc:"product"},
   {id:26,title:"Assignment26",desc:"day26"}
  
 ]
