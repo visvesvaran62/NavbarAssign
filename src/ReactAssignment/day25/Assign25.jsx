@@ -1,5 +1,6 @@
 import Home from "./Home";
-import AppProvider from "./context/AppProvider";
+import AppProvider from "./Provider/AppProvider";
+
 
 const Assign25 = () => {
   return (
