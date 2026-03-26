@@ -21,7 +21,7 @@ const Home = () => {
         <div className="flex justify-center gap-4">
 
           <Link
-            to="/assignment"
+            to="/assignments"
             className="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold 
                        hover:bg-purple-600 hover:text-white transition shadow-lg"
           >

@@ -13,10 +13,10 @@ const AppRoutes = () => {
     <Routes>
       <Route path='/' element={<Home />} />
 
-      {/* ✅ FIXED */}
+      
       <Route path='/assignments' element={<Assignments />} />
 
-      {/* ✅ MATCHING IDs */}
+     
       <Route path='/assignments/21' element={<Assign21 />} />
       <Route path='/assignments/22' element={<Receipe />} />
       <Route path='/assignments/25' element={<Assign25 />} />
