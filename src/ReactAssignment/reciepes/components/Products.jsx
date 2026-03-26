@@ -32,7 +32,7 @@ const Products = () => {
         className="rounded-xl h-40 w-full object-cover mb-3"
       />
       <h1 className="font-semibold text-center">{e.name}</h1>
-      <p className='font-bold'>⭐ {e.rating}</p>
+      <p className='font-bold'> {e.rating}</p>
     </div>
   ))}
 </div>

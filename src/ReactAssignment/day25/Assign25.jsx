@@ -1,13 +1,12 @@
-import React from 'react'
-import ThemeSwitch from './components/ThemeSwitch'
+
 import Home from './Home'
+import AppProvider from './context/AppProvider'
 
 const Assign25 = () => {
   return (
-    <div>
-
-      <Home/>
-    </div>
+    <AppProvider>
+      <Home />
+    </AppProvider>
   )
 }
 
