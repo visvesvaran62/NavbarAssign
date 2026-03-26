@@ -1,5 +1,5 @@
 import AssignmentCard from "./AssignmentCard";
-import { assignmentData } from "./data";
+import { assignmentData } from "../data";
 
 const Assignments = () => {
   return (
