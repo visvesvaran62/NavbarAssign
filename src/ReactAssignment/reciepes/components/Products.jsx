@@ -22,7 +22,7 @@ const Products = () => {
   return (
     <div className='bg-black p-10 flex flex-wrap gap-8 justify-center'>
       {datas.map((e) => (
-        <div key={e.id} className='bg-amber-300 text-black w-[300px] h-[300px] rounded-2xl border-2 flex justify-center items-center flex-col'>
+        <div key={e.id} className='bg-amber-300 text-black w-30 h-10 rounded-2xl border-2 flex justify-center items-center flex-col'>
           <img src={e.image} alt={e.name} className="p-3 rounded-2xl h-40 w-40" />
           <h1>{e.name}</h1>
           <p className='font-bold'>Ratings: {e.rating}</p>
