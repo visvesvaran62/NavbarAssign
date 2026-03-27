@@ -1,9 +1,11 @@
 import React from 'react'
 import AuthRoute from './Route/AuthRoute'
+import Navbar from './Components/Navbar'
 
-const Day27 = () => {
+const Assign27 = () => {
   return (
     <div>
+        <Navbar/>
         <AuthRoute/>
 
       
@@ -11,4 +13,4 @@ const Day27 = () => {
   )
 }
 
-export default Day27
+export default Assign27
