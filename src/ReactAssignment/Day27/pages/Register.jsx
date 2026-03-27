@@ -3,7 +3,9 @@ import React from 'react'
 const Register = () => {
   return (
    <>
- Register
+ <div>
+  Register
+ </div>
    </>
   )
 }

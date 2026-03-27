@@ -10,10 +10,6 @@ const Assign27 = () => {
     <div>
       <Navbar/>
       <AuthRoute/>
-     
-       
-
-      
     </div>
   )
 }
