@@ -6,7 +6,7 @@ const ThemeSwitch = () => {
 
   return (
     <div
-      className={`min-h-screen flex flex-col items-center justify-center ${
+      className={` h-100 flex flex-col items-center justify-center ${
         theme === "light" ? "bg-white text-black" : "bg-black text-white"
       }`}
     >
