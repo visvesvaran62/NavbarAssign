@@ -1,17 +1,14 @@
-import React from 'react'
-
-
-import Dashboard from './pages/Dashboard'
-import AuthRoute from './Route/AuthRoute'
-import Navbar from './Components/Navbar'
+import { Routes, Route } from "react-router-dom";
+import Login from "./Login";
+import Register from "./Register";
 
 const Assign27 = () => {
   return (
-    <div>
-      <Navbar/>
-      <AuthRoute/>
-    </div>
-  )
-}
+    <Routes>
+      <Route path="login" element={<Login />} />
+      <Route path="register" element={<Register />} />
+    </Routes>
+  );
+};
 
-export default Assign27
+export default Assign27;
