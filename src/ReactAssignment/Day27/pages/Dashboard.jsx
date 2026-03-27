@@ -1,11 +1,10 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import AuthRoute from '../Route/AuthRoute'
 
 const Dashboard = () => {
   return (
     <div>
-        <Navbar/>
-
 
         <h1>home</h1>
       
