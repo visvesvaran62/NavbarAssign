@@ -9,6 +9,7 @@ const Assign27 = () => {
   return (
     <div>
       <Navbar/>
+      <AuthRoute/>
      
        
 

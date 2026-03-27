@@ -11,7 +11,6 @@ const Navbar = () => {
     <Link to={"/register"}>Register</Link>
 
     </div>
-    <AuthRoute/>
     </>
 
 
