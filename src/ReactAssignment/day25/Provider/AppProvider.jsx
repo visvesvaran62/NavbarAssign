@@ -7,8 +7,6 @@ const AppProvider = ({ children }) => {
   const [lang,setLang]=useState("en")
   const[count,setCount]=useState(0)
 
-  
-
   const toggleTheme = () => {
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
   };
