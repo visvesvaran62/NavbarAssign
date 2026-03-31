@@ -24,7 +24,7 @@ const LargeArray = () => {
 
   return (
     <div className="text-white">
-              <div className="bg-gray-800 p-8 rounded-2xl shadow-lg w-[400px] text-center">
+              <div className="bg-gray-800 p-8 rounded-2xl shadow-lg w-100 mt-10 text-center">
         
         <h1 className="text-2xl font-bold mb-6">
           Large Array Filtering
