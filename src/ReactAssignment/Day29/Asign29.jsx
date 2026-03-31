@@ -2,13 +2,13 @@ import React from 'react'
 import HeavyValue from './components/HeavyValue'
 import LargeArray from './components/LargeArray'
 
-const Assign29 = () => {
+const Asign29 = () => {
   return (
-   <>
-   <HeavyValue/>
-   <LargeArray/>
-   </>
+    <div>
+     <HeavyValue/>
+     <LargeArray/> 
+    </div>
   )
 }
 
-export default Assign29
+export default Asign29

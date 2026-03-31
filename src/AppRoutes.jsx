@@ -9,8 +9,10 @@ import Receipe from './ReactAssignment/reciepes/Receipe'
 import Assign25 from './ReactAssignment/day25/Assign25'
 import LocalStorage from './ReactAssignment/Localstorage/LocalStorage'
 import Hoc from './ReactAssignment/Hoc/Hoc'
+import Assign29 from './ReactAssignment/Day29/Asign29'
 
-import Assign29 from './ReactAssignment/Day29/assign29'
+
+
 
 
 const AppRoutes = () => {
