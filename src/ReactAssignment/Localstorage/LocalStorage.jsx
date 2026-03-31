@@ -1,23 +1,16 @@
-import { Route, Routes } from "react-router-dom"
-import Register from "./Components/Register"
-import Login2 from "./Components/auth/Login2"
-import Dashboard from "./Components/auth/Dashboard"
-import Hoc from "../Hoc/Hoc"
-
+import { Route, Routes } from "react-router-dom";
+import Register from "./Components/Register";
+import Login2 from "./Components/auth/Login2";
+import Dashboard from "./Components/auth/Dashboard";
 
 const LocalStorage = () => {
   return (
-    <div>
-        <Register/>
-        <Login2/>
-        <Hoc/>
-        <Routes>
-
+    <Routes>
+      <Route path="/register" element={<Register />} />
+      <Route path="/login" element={<Login2 />} />
       <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
+  );
+};
 
-    </div>
-  )
-}
-
-export default LocalStorage
+export default LocalStorage;
