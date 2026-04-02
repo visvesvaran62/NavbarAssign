@@ -6,9 +6,10 @@ import Dashboard from "./Components/auth/Dashboard";
 const LocalStorage = () => {
   return (
     <Routes>
-      <Route path="/register" element={<Register />} />
-      <Route path="/login" element={<Login2 />} />
-      <Route path="/dashboard" element={<Dashboard />} />
+      <Register/>
+      <Login2/>
+      <Dashboard/>
+
     </Routes>
   );
 };

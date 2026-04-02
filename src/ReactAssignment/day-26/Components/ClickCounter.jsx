@@ -4,7 +4,7 @@ const ClickCounter = () => {
     const CountRef=useRef(0)
     const ClicktoIncrease=()=>{
         CountRef.current+=1;
-        console.log(CountRef.current)
+        // console.log(CountRef.current)
     }
   return (
   <><div className='bg-sky-400 w-350 h-20 p-2'>

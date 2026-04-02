@@ -11,6 +11,7 @@ import LocalStorage from './ReactAssignment/Localstorage/LocalStorage'
 import Hoc from './ReactAssignment/Hoc/Hoc'
 import Assign29 from './ReactAssignment/Day29/Asign29'
 import Day30 from './ReactAssignment/Day30/Day30'
+import Day31 from './ReactAssignment/Day31/Day31'
 
 const AppRoutes = () => {
   return (
@@ -29,6 +30,7 @@ const AppRoutes = () => {
       <Route path='/assignments/27' element={<Hoc />} />
       <Route path='/assignments/29' element={<Assign29 />} />
       <Route path='/assignments/30' element={<Day30/>}/>
+      <Route path='/assignments/31' element={<Day31/>}/>
 
      
 

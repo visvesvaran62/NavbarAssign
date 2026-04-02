@@ -6,12 +6,12 @@ const Navbar = () => {
     <div className="h-20 w-full bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 
     flex justify-between items-center px-10 shadow-lg">
 
-      {/* Logo */}
+   
       <div className="text-white text-2xl font-bold tracking-wide">
         ⚡ ReactApp
       </div>
 
-      {/* Menu */}
+    
       <div className="flex gap-8 text-white font-medium">
 
         <NavLink

@@ -3,12 +3,20 @@ import withButton from '../withButton'
 import Button from './Button'
 
 const NewButton=withButton(Button)
+const Butn=withButton(Button)
 const EnhancedButton = () => {
   return (
-    <div>
+   
+       <>
+        <div>
        <NewButton/>
       
+
+      
     </div>
+     <div>
+        <Butn/>
+       </div></>
   )
 }
 
