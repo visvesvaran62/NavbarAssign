@@ -20,7 +20,7 @@ const Login2 = () => {
       data.password === userData.password
     ) {
         localStorage.setItem("isTrue","true")
-        navigate("/dashboard")
+        navigate("/assignments/27/dashboard")
       
     } else {
       alert("Invalid User");
