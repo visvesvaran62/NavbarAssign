@@ -3,6 +3,7 @@ import ThemeProvider from './Components/Theme/ThemeProvider'
 import ThemeToggle from './Components/Theme/ThemeToggle'
 import Cart from './Components/Usereducer/Cart'
 import AppLazy from './Components/LazyLoading/AppLazy'
+import Routes from './Components/AuthRoute/Routes'
 
 
 const Day32 = () => {
@@ -12,7 +13,7 @@ const Day32 = () => {
       <ThemeToggle/>
     </ThemeProvider>
     <Cart/>
-   
+   {/* <Routes/> */}
   </>
    
   )

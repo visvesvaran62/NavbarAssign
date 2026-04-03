@@ -32,13 +32,15 @@ const AppLazy = () => {
     
     </div>
     <div>
-        <Suspense fallback={<h3>Loading...</h3>}>
+        
         <Routes>
           <Route path="Home" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="dashboard" element={<Dashboard />} />
+          
+          <Route path="about" element={<Suspense fallback={<h3>Loading...</h3>}><About /></Suspense>} />
+          <Route path="dashboard" element={<Suspense fallback={<h3>Loading...</h3>}><Dashboard /></Suspense>} />
+          
         </Routes>
-      </Suspense>
+      
     </div>
   </>
    
