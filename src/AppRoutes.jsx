@@ -14,6 +14,8 @@ import Day30 from './ReactAssignment/Day30/Day30'
 import Day31 from './ReactAssignment/Day31/Day31'
 import Day32 from './ReactAssignment/Day-32/Day32'
 
+import FormHandling from './ReactAssignment/Form/FormHandling'
+
 const AppRoutes = () => {
   return (
     <Routes>
@@ -33,6 +35,7 @@ const AppRoutes = () => {
       <Route path='/assignments/30' element={<Day30/>}/>
       <Route path='/assignments/31' element={<Day31/>}/>
      <Route path="/assignments/32/*" element={<Day32 />} />
+     <Route path='/assignments/33' element={<FormHandling/>}/>
 
      
 

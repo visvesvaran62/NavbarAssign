@@ -8,4 +8,5 @@ export const assignmentData = [
   { id: 30, title: "Assignment 30", desc: "day-30" },
   { id: 31, title: "Assignment 31", desc: "useReducer" },
   { id: 32, title: "Assignment 32", desc: "Day-32" },
+  { id: 33, title: "form", desc: "Form" },
 ];
